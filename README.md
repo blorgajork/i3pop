@@ -5,7 +5,7 @@ A small python script to "pop" out a tiled window by turning it into a floating 
 
 To use this add this line in the i3 config:
 ### binds i3pop to mod & scrollwheeldown
->bindsym --whole-window $mod+button5 exec /home/george/Python/i3Tools/i3pop/i3pop.py
+>bindsym --whole-window $mod+button5 exec *path*/i3pop.py
 
 ### does the same but toggles sticky windows
->bindsym --whole-window $mod+Shift+button5 exec /home/george/Python/i3Tools/i3pop/i3pop.py --stick
+>bindsym --whole-window $mod+Shift+button5 exec *path*/i3pop.py --stick
